@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "wireless-tools": "git+https://git@github.com/mearm/wireless-tools.git",
-    "ws": "1.1.0",
+    "ws": "7.1.2",
     "pigpio": "1.2.3",
     "i2c-bus": "4.0.9"
   },
