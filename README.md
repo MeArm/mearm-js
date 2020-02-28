@@ -9,18 +9,20 @@ The steps to manually install MeArm JS on to a fresh Raspberry Pi (running Stret
  - Update the system:
 
 `sudo apt-get update`
+`sudo apt-get upgrade`
+`sudo apt-get dist-upgrade`
+
+ - Update the npm version.
+
+`curl https://www.npmjs.com/install.sh | sudo sh`
 
  - Install packages we'll need to run the software
 
-`sudo apt-get install -y git pigpio nodejs npm`
+`sudo apt-get install -y pigpio python-pigpio python3-pigpio`
 
- - Symlink node to nodejs (required to make some packages work properly)
+ - Install the MeArm Software
 
-`sudo ln -sf /usr/bin/nodejs /usr/bin/node`
-
- - Clone the MeArm JS repository
-
-`git clone https://github.com/mimeindustries/mearm-js.git`
+`git clone https://github.com/mearm/mearm-js.git`
 
  - Move into the repository
 
