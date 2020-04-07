@@ -1,0 +1,17 @@
+{
+  "name": "MeArm",
+  "version": "0.0.15",
+  "description": "A library and app for controlling the MeArm (http://mearm.com) on the Raspberry Pi and other devices",
+  "author": "Ben Pirt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mearm/mearm-js"
+  },
+  "dependencies": {
+    "wireless-tools": "git+https://git@github.com/mearm/wireless-tools.git",
+    "ws": "7.2.1",
+    "pigpio": "3.0.0",
+    "i2c-bus": "5.1.0"
+  },
+  "license": "MIT"
+}
